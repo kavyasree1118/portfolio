@@ -64,8 +64,8 @@ body.dark button.submit {
 
 
 .hero-photo {
-  width: 300px;   /* bigger */
-  height: 300px;
+  width: 600px;   /* 3× bigger */
+  height: 600px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -74,11 +74,12 @@ body.dark button.submit {
   .hero {
     flex-direction: row;
     text-align: left;
-    gap: 2rem;
-    justify-content: flex-start; /* moves photo slightly left */
-    padding-left: 2rem; /* gentle left shift */
+    justify-content: flex-start;  /* push content to far left */
+    gap: 3rem;
+    padding-left: 0;              /* keeps photo on left edge */
   }
 }
+
 
 
 
@@ -289,6 +290,7 @@ function toggleDark(){
 </script>
 </body>
 </html>
+
 
 
 
